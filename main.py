@@ -13,7 +13,7 @@ import time
 from data.dataset import LidDrivenDataset2DTime
 from models.geometric_deeponet.geometric_deeponet import GeometricDeepONetTime
 
-
+# Set random seeds for reproducibility
 def set_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
